@@ -10,3 +10,5 @@ npm start
 bun install
 bun run dev
 ```
+
+UI-библиотека и сборщик Vite для удобства и скорости разработки
