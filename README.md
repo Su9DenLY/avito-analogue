@@ -1,14 +1,8 @@
-Для запуска
-В директории server
+Для запуска в корне проекта выполнить
 ```bash
-npm install
-npm start
+docker-compose up
 ```
 
-В директории client
-```bash
-npm install
-npm run dev
-```
+После этого сайт будет доступен по http://localhost
 
 Я использовал дизайн-систему Ant Design для ускорения разработки интерфейса, а сборщик Vite для быстрой сборки проекта
