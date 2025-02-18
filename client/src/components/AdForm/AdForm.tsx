@@ -26,7 +26,7 @@ const AdForm: FC<AdFormProps> = ({initialData}) => {
             location: "",
             photos: [],
             type: undefined,
-        },
+        },  
     });
 
     const selectedCategory = useWatch({control, name: "type"});

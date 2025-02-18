@@ -40,8 +40,7 @@ const Header: FC<HeaderProps> = ({setCurrentAd}) => {
                         </span>
                     )}
                     <Link to={"/form"}>
-                        <Button variant={"solid"}
-                                color={"blue"}
+                        <Button type={"primary"}
                                 size={buttonSize}
                                 onClick={() => setCurrentAd(null)}>
                             Разместить объявление
